@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.aaaa {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.btn-special {
+    background: radial-gradient(96.72% 187.09% at 0px 100.29%, 
+    rgb(255, 92, 0) 5.21%, 
+    rgb(234, 80, 124) 25.52%, 
+    rgb(185, 65, 239) 48.44%, 
+    rgb(91, 97, 255) 70.83%, 
+    rgb(33, 190, 231) 93.75%);
+    color: white;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 25px;
+    border: none;
+}
+.btn-special:hover {
+    cursor: pointer;
+    height: 47px;
+    width: 102px;
+
+}
+header {
+   display: flex; 
+   background: rgb(27, 27, 27);
+   color: rgb(165, 165, 165);
+   align-items: center;
+   height: 70px;
+}
+.header-item {
+    margin-left: 30px;
+}
+.icn-kinopoisk {
+    height: 25px;
+    margin-left: 50px;
+}
+.search {
+    background: rgb(73, 73, 73);
+    height: 35px;
+    width: 400px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(192, 192, 192);;
+}
+.link {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+}
+.head-link:hover {
+    color: white;
+}
+#login {
+    margin-left: 20px;
+}
+.panel {
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: sticky;
+    top: 20px;
+}
+.panel ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.panel li {
+    margin-top: 20px;
+}
+.panel-link {
+    margin-left: 10px;
+}
+.banner-img {
+    width: 95%;
+    margin-left: 5px;
+}
+.content {
+    margin-left: 40px;
+    border: 1px solid rgb(227, 227, 227);
+
+}
+.container {
+    display: grid;
+    width: 80%;
+    grid-template-columns: 200px 1fr;
+    margin-left: 6%;
+    margin-right: auto;
+}
+ion-icon {
+    font-size: 20px;
+  }
+footer {
+    background-color: rgb(17, 17, 17);
+    color: rgb(80, 80, 80);
+    height: 350px;
+}
+footer p {
+    margin-bottom: 0px;
+}
+.footer-info {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.info-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.info-links a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer-icns {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer-icns a{
+    margin-left: 40px;
+}
+.footer-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.footer-links a{
+    padding-left: 40px;
+}
+.btn-download {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.button-download {
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.button-download ion-icon {
+    font-size: 30px;
+}
+.watching-now {
+    background: #000;
+    color: white;
+    padding: 10px 20px 20px 20px;
+}
+.watching-now img {
+    height: 350px;
+    width: 250px;
+    margin-left: 10px;
+}
+.watching-now ion-icon {
+    font-size: 50px;
+}
+.container-film {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: rgb(22, 22, 22);
+    color: rgb(212, 212, 212);
+    display: grid;
+    grid-template-rows: 80px 200px 80px 200px 80px 250px;
+    justify-content: center;
+}
+.container-film img {
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+}
+.new img {
+    margin-left: 25px;
+}
+.serials img {
+    margin-left: 25px;
+}
+.genres img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
